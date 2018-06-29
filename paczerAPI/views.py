@@ -1,10 +1,10 @@
-
 from django.http import HttpResponse
 import requests
 import json
 from paczerAPI.tools.dictBuilder import DictBuilder
 from paczerAPI.tools.gitRequest import gitRequest
 from gitPaczer.settings import GitHub_credentials
+
 
 def gitRead(request, owner, repositoryName):
     response = gitRequest(owner, repositoryName)
