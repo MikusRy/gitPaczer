@@ -120,5 +120,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-GitHub_credentials = {"Login": "mikolaj.rychel@gmail.com",
-                      "Password": "Halina123"}
+GitHub_credentials = {"Login": "{{INSERT LOGIN HERE}}",
+                      "Password": "{{INSERT PASSWORD HERE}}"}
