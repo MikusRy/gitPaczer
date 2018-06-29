@@ -39,6 +39,8 @@ If you want to avoid authorization, please delete `auth` list from `requests.get
 After these steps we are ready to run our service. Simply change your directory to manage.py file location and type:
     
     $ python3 manage.py runserver:<PORT> <- changing port is optional, default port is 8000
+    
+    Request URI - http://<servername:port>/repositories/<GitHub_Username>/<Repository_name>
 
 #### MIGRATIONS ARE UNNECESSARY SINCE SERVICE IS NOT USING DATABASES
 
