@@ -6,15 +6,15 @@
 
 </div>
 
-##Description
+## Description
 
 Project is a simple REST service retrieving data about given GitHub Repository.
 
-##Installation Process
+## Installation Process
 
 Before Service will be ready to use we need to set few things up.
 
-####Python 3 / Pip3 / Django 2
+#### Python 3 / Pip3 / Django 2
 Service is implemented in Python 3 therefore you have to be sure it is installed on your machine before running.
 
 Please follow these steps:
@@ -28,7 +28,7 @@ Otherwise follow instructions given in this link:
 
 [https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-centos-7](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-centos-7)
 
-####Running Application
+#### Running Application
 
 Before first run you have to provide your GitHub credentials in `settings.py` file located in `gitPaczer/` catalog,
 at the very bottom of file in `GitHub_credentials` dictionary, in order to authorize your requests to GitHub service. 
