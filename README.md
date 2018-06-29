@@ -40,5 +40,5 @@ After these steps we are ready to run our service. Simply change your directory 
     
     $ python3 manage.py runserver:<PORT> <- changing port is optional, default port is 8000
 
-
+#### MIGRATIONS ARE UNNECESSARY SINCE SERVICE IS NOT USING DATABASES
 
